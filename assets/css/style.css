@@ -1,0 +1,56 @@
+.header {
+    font-family: 'GFS Didot', serif;
+    background-color: rgb(62, 145, 170);
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    display: flex;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(62, 145, 170);
+}
+
+.column {
+    display: ;
+    float: left;
+    width: 33%;
+     /* margin: 25px; */
+    padding: 10px;
+}
+
+.footer {
+    Position: fixed;
+    display: inline-block text-align: center;
+    clear: both;
+
+/* MEDIA-QUERIES, mobile-first — Bootstrap 3 */
+/* iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* EXTRA-small devices, phones */
+@media only screen and (min-width: 480px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* SMALL devices, tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* MEDIUM devices, desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* LARGE devices, widescreens */
+@media only screen and (min-width: 1200px) {
+
+}
